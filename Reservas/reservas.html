@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hotel Villa de Alquézar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reservas.css'>
+    <link rel="icon" href="img/LOGO.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <img src="img/icons8-menu-50.png" alt="Menu Icon" class="menu-icon">
+        </label>
+    
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo">
+        </div>
+    
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="../index.html">Inicio</a>
+                <a href="../Habitaciones/habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="reservas.html">Reservas</a>
+            </div>    
+        </div>
+        
+        <div class="desktop-menu">
+            <div class="left-menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../Habitaciones/habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+            </div>
+    
+            <div class="right-menu">
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="reservas.html">Reservas</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="reservas-container">
+            <header class="reservas-header">
+                <h1>RESERVAS</h1>
+            </header>
+
+            <section class="informacion-contacto">
+                <div class="contacto">
+                    <h2>¡CONTÁCTANOS!</h2>
+                    <p>
+                        Teléfono: +34 974 31 84 16<br>
+                        Email: info@villadealquezar.com
+                    </p>
+                </div>
+            </section>
+
+            <section class="seccion-reserva">
+                <form action="https://www.booking.com/hotel/es/villa-de-alquezar.es.html" method="get" class="formulario-reserva">
+                    <div class="opciones-reserva">
+                        <div class="campo-reserva">
+                            <label for="fecha-entrada">FECHA DE ENTRADA</label>
+                            <input type="date" id="fecha-entrada" name="checkin" required>
+                        </div>
+                        <div class="campo-reserva">
+                            <label for="fecha-salida">FECHA DE SALIDA</label>
+                            <input type="date" id="fecha-salida" name="checkout" required>
+                        </div>
+                        <div class="campo-reserva">
+                            <label for="huespedes">Nº DE HUÉSPEDES</label>
+                            <input type="number" id="huespedes" name="group_adults" min="1" max="20" required>
+                        </div>
+                        <button type="submit" class="boton-reservar">RESERVAR</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="formulario-mensaje">
+                <h2>¡ESCRÍBENOS!</h2>
+                <form action="https://hook.eu2.make.com/6m7p9gwxu7r2o5t3o861eq7jr5ac80bn" method="post" enctype="text/plain">
+                    <div class="form-grupo">
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="email">CORREO ELECTRÓNICO</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="mensaje">MENSAJE</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="boton-enviar">ENVIAR MENSAJE</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="column">
+           <div class="title">NAVEGA POR LA WEB</div>
+            <div class="logos">
+                <a href="../Politicas/aviso-legal.html" class="enlace-frase">-Aviso Legal</a>
+                <a href="../Politicas/cookies.html" class="enlace-frase">-Política de cookies</a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">CONTACTO</div>
+            <div class="texto">
+                <p>C/ Pedro Arnal Cavero, 12</p>
+                <p>Alquézar - Huesca (España)</p>
+                <p>Teléfono y fax: 974 31 84 16</p>
+                <p>info@villadealquezar.com</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">REDES SOCIALES</div>
+            <div class="social-links">
+                <a href="https://es-es.facebook.com/people/Hotel-Villa-de-Alqu%C3%A9zar/100063754862212/" target="_blank">
+                    <img src="img/icons8-facebook-50.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/hotel_villa_de_alquezar?igsh=ZmY4dGlncjU2eGs5" target="_blank">
+                    <img src="img/icons8-instagram-50.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

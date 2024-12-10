@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hotel Villa de Alquézar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="icon" href="img/LOGO.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <img src="img/icons8-menu-50.png" alt="Menu Icon" class="menu-icon">
+        </label>
+    
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo">
+        </div>
+    
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="../Habitaciones/habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="../Reservas/reservas.html">Reservas</a>
+            </div>    
+        </div>
+        
+        <div class="desktop-menu">
+            <div class="left-menu">
+                <a href="index.html">Inicio</a>
+                <a href="../Habitaciones/habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+            </div>
+    
+            <div class="right-menu">
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="../Reservas/reservas.html">Reservas</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="img/vistas-castillo-alquezar.jpg" alt="Vistas del Castillo de Alquézar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/salon-hotel-villa-de-alquezar.jpg" alt="Salón del Hotel Villa de Alquézar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/hotel-villa-de-alquezar.jpg" alt="Hotel Villa de Alquézar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/habitacion-hotel-en-alquezar.jpg" alt="Habitación del Hotel en Alquézar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/bodegas-alquezar.jpg" alt="Bodegas de Alquézar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/barranquismo-alquezar.jpg" alt="Barranquismo en Alquézar">
+                </div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Bienvenido al Hotel Villa de Alquézar</h1>
+            <p>Una experiencia única en el corazón de Alquézar</p>
+            <form action="https://www.booking.com/hotel/es/villa-de-alquezar.es.html" method="get" class="booking-form">
+                <div class="form-group">
+                    <label for="checkin">FECHA DE ENTRADA</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkout">FECHA DE SALIDA</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                </div>
+                <div class="form-group">
+                    <label for="group_adults">Nº DE HUÉSPEDES</label>
+                    <select id="group_adults" name="group_adults" required>
+                        <option value="1">1 huésped</option>
+                        <option value="2">2 huéspedes</option>
+                        <option value="3">3 huéspedes</option>
+                        <option value="4">4 huéspedes</option>
+                        <option value="5">5 huéspedes</option>
+                        <option value="6">6 huéspedes</option>
+                        <option value="7">7 huéspedes</option>
+                        <option value="8">8 huéspedes</option>
+                        <option value="9">9 huéspedes</option>
+                        <option value="10">10 huéspedes</option>
+                        <option value="11">11 huéspedes</option>
+                        <option value="12">12 huéspedes</option>
+                        <option value="13">13 huéspedes</option>
+                        <option value="14">14 huéspedes</option>
+                        <option value="15">15 huéspedes</option>
+                        <option value="16">16 huéspedes</option>
+                        <option value="17">17 huéspedes</option>
+                        <option value="18">18 huéspedes</option>
+                        <option value="19">19 huéspedes</option>
+                        <option value="20">20 huéspedes</option>
+                        <option value="21">21 huéspedes</option>
+                        <option value="22">22 huéspedes</option>
+                        <option value="23">23 huéspedes</option>
+                        <option value="24">24 huéspedes</option>
+                        <option value="25">25 huéspedes</option>
+                        <option value="26">26 huéspedes</option>
+                        <option value="27">27 huéspedes</option>
+                        <option value="28">28 huéspedes</option>
+                        <option value="29">29 huéspedes</option>
+                        <option value="30">30 huéspedes</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-reservar">RESERVAR</button>
+            </form>
+        </div>
+        <div class="carousel-navigation">
+            <a href="#hotel-info" class="scroll-down-arrow">
+                <img src="img/icons8-arrow-down-50 (2).png" alt="Scroll Down" class="down-arrow-icon">
+            </a>
+        </div>
+    </section>
+
+    <section id="hotel-info" class="hotel-info">
+        <section class="hotel-info">
+            <div class="hotel-info-images left">
+                <img src="img/hotel-villa-alquezar-1.jpg" alt="Hotel">
+            </div>
+            <div class="hotel-info-content">
+                <h2>
+                    <span class="hotel-title">
+                        <span class="title-top">HOTEL</span>
+                        <span class="title-bottom">VILLA DE ALQUÉZAR</span>
+                    </span>
+                </h2>
+                <p><em>En el corazón mismo del pueblo, el Hotel Villa de Alquézar, un edificio histórico y reformado. El hotel respira, en todos sus rincones, calma, amabilidad, descanso. Y, sobre todo, contagia ese bienestar.</em></p>
+                <br>
+                <p><em>Desde la propia habitación se puede disfrutar de las hermosas vistas al cañón o la Colegiata; de la agradable tranquilidad de las calles del pueblo o bien del jardín del hotel y su piscina.</em></p>
+                <br>
+                <p><em>Alquézar ofrece al viajero un medio natural de extraordinaria belleza catalogado como Parque Natural de la Sierra y los Cañones de Guara. En la comarca del Somontano, conformando gran parte del espacio considerado como Prepirineo, Guara es la frontera mágica entre el hombre y la naturaleza, el agua y la piedra, el valor y la aventura.</em></p>
+                <br>
+                <p><em>Pero también ofrece cultura, tradiciones e historia, La Colegiata, el Museo Etnológico Fabián y el Parque Cultural del Río Vero (con las pinturas rupestres como uno de sus mayores tesoros).</em></p>
+            </div>
+            <div class="hotel-info-images right">
+                <img src="img/hotel-villa-alquezar-2.jpg" alt="Hotel">
+    
+            </div>
+        </section>
+    </section>
+
+    <section class="habitaciones">
+        <div class="background-image">
+            <div class="rooms-container">
+                <div class="room-card">
+                    <img src="img/habitacion.jpg" alt="Habitación Estándar" class="room-image">
+                    <div class="room-overlay">
+                        <span class="room-title">HABITACIÓN<br>DOBLE ESTÁNDAR</span>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="img/hsbitacion-cuadruple-especial-alquezar.jpg" alt="Habitación Cuádruple" class="room-image">
+                    <div class="room-overlay">
+                        <span class="room-title">HABITACIÓN CUÁDRUPLE</span>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="img/habitacion-hotel-en-alquezar.jpg" alt="Habitación Estándar" class="room-image">
+                    <div class="room-overlay">
+                        <span class="room-title">HABITACIÓN<br>DOBLE SUPERIOR</span>
+                    </div>
+                </div>
+            </div>
+    
+            <a href="../Habitaciones/habitaciones.html" class="view-rooms-button"><em>IR A LAS HABITACIONES</em></a>
+        </div>
+    </section>
+
+    <section class="zonas">
+        <div class="hotel-zones">
+            <h2>ZONAS DEL HOTEL</h2>
+            <div class="zones-container">
+                <div class="zone">
+                    <img src="img/JARDINES-HOTEL-VILLA-DE-ALQUEZAR.jpg" alt="Jardines">
+                    <h3>JARDINES</h3>
+                    <p>El jardín es una de las estancias donde existe un gran aljibe de agua restaurado, sitio ideal para la lectura.</p>
+                </div>
+                <div class="zone">
+                    <img src="img/hotel-villa-alquezar-piscina.jpg" alt="Piscina y Spa">
+                    <h3>PISCINA & SPA</h3>
+                    <p>Relájate y disfruta de la paz y la tranquilidad en nuestra piscina & spa ubicados en un entorno único.</p>
+                </div>
+                <div class="zone">
+                    <img src="img/salon-hotel-villa-alquezar-1.jpg" alt="Salon de descanso">
+                    <h3>SALÓN DE DESCANSO</h3>
+                    <p>Salón de descanso para nuestros huéspedes con chimenea y una pequeña librería.</p>
+                </div>
+                <div class="zone">
+                    <img src="img/aparcamiento-hotel-alquezar.jpg" alt="Aparcamiento">
+                    <h3>APARCAMIENTO</h3>
+                    <p>Disponemos de parking privado cubierto. Muy importante en un conjunto histórico como es Alquézar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="puntuacion-reseñas">
+        <div class="valoraciones">
+            <div class="puntuacion">
+                <div class="valoracion">
+                    <a href="https://www.tripadvisor.es/Hotel_Review-g669660-d316134-Reviews-Villa_de_Alquezar-Alquezar_Province_of_Huesca_Aragon.html" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="flex items-center">
+                        <img src="img/logo-tripadvisor.png" alt="TripAdvisor" class="mr-2" />
+                    </a>    
+                    <h3 class="text-lg">4,5/5</h3>
+                </div>
+                <div class="valoracion">
+                    <a href="https://www.booking.com/hotel/es/villa-de-alquezar.es.html" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="flex items-center">
+                        <img src="img/logo-bookingcom.png" alt="Booking" class="mr-2" />
+                    </a>
+                    <h3 class="text-lg">8,9/10</h3>
+                </div>    
+        </div>
+    </section>
+
+    <section class="localizacion">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2956.9488277900477!2d0.022762776495493305!3d42.17277614691257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a78a397a5d080f%3A0x16dfa1e29fb47dae!2sC.%20Pedro%20Arnal%20Cavero%2C%2012%2C%2022145%20Alqu%C3%A9zar%2C%20Huesca!5e0!3m2!1ses!2ses!4v1731658587852!5m2!1ses!2ses" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="column">
+            <div class="title">NAVEGA POR LA WEB</div>
+            <div class="logos">
+                <a href="../Politicas/aviso-legal.html" class="enlace-frase">-Aviso Legal</a>
+                <a href="../Politicas/cookies.html" class="enlace-frase">-Política de cookies</a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">CONTACTO</div>
+            <div class="texto">
+                <p>C/ Pedro Arnal Cavero, 12</p>
+                <p>Alquézar - Huesca (España)</p>
+                <p>Teléfono y fax: 974 31 84 16</p>
+                <p>info@villadealquezar.com</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">REDES SOCIALES</div>
+            <div class="social-links">
+                <a href="https://es-es.facebook.com/people/Hotel-Villa-de-Alqu%C3%A9zar/100063754862212/" target="_blank">
+                    <img src="img/icons8-facebook-50.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/hotel_villa_de_alquezar?igsh=ZmY4dGlncjU2eGs5" target="_blank">
+                    <img src="img/icons8-instagram-50.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+        
+</body>
+</html>
