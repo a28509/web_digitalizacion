@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Habitaciones</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='habitaciones.css'>
+    <link rel="icon" href="img/LOGO.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <img src="img/icons8-menu-50.png" alt="Menu Icon" class="menu-icon">
+        </label>
+    
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo">
+        </div>
+    
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="../index.html">Inicio</a>
+                <a href="habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="../Reservas/reservas.html">Reservas</a>
+            </div>    
+        </div>
+        
+        <div class="desktop-menu">
+            <div class="left-menu">
+                <a href="../index.html">Inicio</a>
+                <a href="habitaciones.html">Habitaciones</a>
+                <a href="../Spa-Piscina/spa-piscina.html">Spa-Piscina</a>
+            </div>
+    
+            <div class="right-menu">
+                <a href="../Alquezar/alquezar.html">Alquézar</a>
+                <a href="../Como_Llegar/como_llegar.html">Cómo Llegar</a>
+                <a href="../Reservas/reservas.html">Reservas</a>
+            </div>
+        </div>
+    </nav>
+    <section class="habitaciones">
+        <h2 class="titulo-seccion">NUESTRAS HABITACIONES</h2>
+        
+        <div class="contenedor-habitaciones">
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-individual" id="individual-1" checked>
+                        <input type="radio" name="slider-individual" id="individual-2">
+                        <input type="radio" name="slider-individual" id="individual-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/7447541.jpg" alt="Habitación Individual">
+                            <img src="img/8417326.jpg" alt="Habitación Individual">
+                            <img src="img/miniatura-doble-uso-individual.jpg" alt="Habitación Individual">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="individual-1" class="bar"></label>
+                            <label for="individual-2" class="bar"></label>
+                            <label for="individual-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN<br>INDIVIDUAL<br>SIN TERRAZA</h3></center>
+                <p>Habitación de uso individual, cómoda y acogedora, con vistas a las calles del pueblo o a los jardines interiores.</p>
+                <div class="detalles-habitacion">
+                    <span>20m² | 1 Persona</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">90€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-superior" id="superior-1" checked>
+                        <input type="radio" name="slider-superior" id="superior-2">
+                        <input type="radio" name="slider-superior" id="superior-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/8417326.jpg" alt="Habitación Individual">
+                            <img src="img/120300737.jpg" alt="Habitación Individual">
+                            <img src="img/7447541.jpg" alt="Habitación Individual">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="superior-1" class="bar"></label>
+                            <label for="superior-2" class="bar"></label>
+                            <label for="superior-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN INDIVIDUAL<br>CON TERRAZA</h3></center>
+                <p>Luminosa habitación de uso individual, con terraza orientada al pueblo y el castillo, el cañón del río Vero o el paisaje abierto del valle del Somontano.</p>
+                <div class="detalles-habitacion">
+                    <span>30m² | 1 Persona</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">110€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-doble" id="doble-1" checked>
+                        <input type="radio" name="slider-doble" id="doble-2">
+                        <input type="radio" name="slider-doble" id="doble-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/miniatura-habitacion-doble-sencilla-.jpg" alt="Habitación Doble">
+                            <img src="img/408375927.jpg" alt="Habitación Doble">
+                            <img src="img/8417300.jpg" alt="Habitación Doble">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="doble-1" class="bar"></label>
+                            <label for="doble-2" class="bar"></label>
+                            <label for="doble-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN<br>DOBLE ESTÁNDAR<br>CON TERRAZA</h3></center>
+                <p>Habitación cómoda y acogedora, con vistas a las pintorescas calles del pueblo o a los jardines interiores.</p>
+                <div class="detalles-habitacion">
+                    <span>25m² | 2 Personas</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">98€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-ejecutiva" id="ejecutiva-1" checked>
+                        <input type="radio" name="slider-ejecutiva" id="ejecutiva-2">
+                        <input type="radio" name="slider-ejecutiva" id="ejecutiva-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/habitacion.jpg" alt="Habitación Doble">
+                            <img src="img/miniatura-habitacion-doble-sencilla-.jpg" alt="Habitación Doble">
+                            <img src="img/120300737.jpg" alt="Habitación Doble">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="ejecutiva-1" class="bar"></label>
+                            <label for="ejecutiva-2" class="bar"></label>
+                            <label for="ejecutiva-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN<br> DOBLE ESTÁNDAR<br>CON TERRAZA</h3></center>
+                <p>Luminosa habitación con terraza orientada al pueblo y el castillo, el cañón del río Vero o el paisaje abierto del valle del Somontano.</p>
+                <div class="detalles-habitacion">
+                    <span>30m² | 2 Personas</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">119€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-familiar" id="familiar-1" checked>
+                        <input type="radio" name="slider-familiar" id="familiar-2">
+                        <input type="radio" name="slider-familiar" id="familiar-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/57810362.jpg" alt="Habitación Doble">
+                            <img src="img/habitacion-alquezar-doble-terraza.jpg" alt="Habitación Doble">
+                            <img src="img/terraza-hotel-alquezar.jpg" alt="Habitación Doble">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="familiar-1" class="bar"></label>
+                            <label for="familiar-2" class="bar"></label>
+                            <label for="familiar-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN <br>DOBLE SUPERIOR<br> CON TERRAZA</h3></center>
+                <p>El alojamiento más singular, espacioso y cómodo de nuestro hotel. Disfruta de de las mejores vistas desde lo más alto del edificio.</p>
+                <div class="detalles-habitacion">
+                    <span>40m² | 2 Personas</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">137€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="habitacion">
+                <div class="slider-habitacion">
+                    <div class="slider-contenedor">
+                        <input type="radio" name="slider-premium" id="premium-1" checked>
+                        <input type="radio" name="slider-premium" id="premium-2">
+                        <input type="radio" name="slider-premium" id="premium-3">
+                        
+                        <div class="imagenes-slider">
+                            <img src="img/18773538.jpg" alt="Habitación Cuádruple">
+                            <img src="img/habitacion-hotel-en-alquezar.jpg" alt="Habitación Cuádruple">
+                            <img src="img/terraza-hotel-alquezar.jpg" alt="Habitación Cuádruple">
+                        </div>
+                        
+                        <div class="navegacion-slider">
+                            <label for="premium-1" class="bar"></label>
+                            <label for="premium-2" class="bar"></label>
+                            <label for="premium-3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <center><h3>HABITACIÓN<br>CUÁDRUPLE<br>CON TERRAZA</h3></center>
+                <p>Habitación luminosa para 4 personas con terraza exterior con las mejores vistas del pueblo y la naturaleza.</p>
+                <div class="detalles-habitacion">
+                    <span>30m² | 4 Personas</span>
+                </div>
+                <div class="precio-reserva">
+                    <span class="precio">199€ / noche</span>
+                    <button onclick="window.location.href='../Reservas/reservas.html'" class="btn-reservar">RESERVAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="column">
+            <div class="title">NAVEGA POR LA WEB</div>
+            <div class="logos">
+                <a href="../Politicas/aviso-legal.html" class="enlace-frase">-Aviso Legal</a>
+                <a href="../Politicas/cookies.html" class="enlace-frase">-Política de cookies</a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">CONTACTO</div>
+            <div class="texto">
+                <p>C/ Pedro Arnal Cavero, 12</p>
+                <p>Alquézar - Huesca (España)</p>
+                <p>Teléfono y fax: 974 31 84 16</p>
+                <p>info@villadealquezar.com</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">REDES SOCIALES</div>
+            <div class="social-links">
+                <a href="https://es-es.facebook.com/people/Hotel-Villa-de-Alqu%C3%A9zar/100063754862212/" target="_blank">
+                    <img src="img/icons8-facebook-50.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/hotel_villa_de_alquezar?igsh=ZmY4dGlncjU2eGs5" target="_blank">
+                    <img src="img/icons8-instagram-50.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
